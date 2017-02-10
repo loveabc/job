@@ -9,12 +9,10 @@ $("[name = SERNO]:checkbox").attr("checked", true);
 	}
 }
 
-//根据name属性选中
+//根据name属性判断哪些被选中
 $("[name=SERNO]").each(function(){
-		if($(this).is(":checked")){
-			allserno=allserno+$(this).val()+"@";
-		}
-	});
+	alert($(this).is(":checked"))			
+});
 
 
 
