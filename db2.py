@@ -28,5 +28,5 @@ for business in businesses:
   print(thTAG.text)
   print(i)
 print(total)
-f.close()
+f.close() 
 
