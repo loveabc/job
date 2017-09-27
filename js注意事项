@@ -8,3 +8,13 @@ myfunction(number),如果number=0100060928,则得到的值是100060928,会出现
 
 4、jquery判断复选框是否选中
 $(id).is(":checked");
+
+5、复选框多选
+function allSelect(){
+	if($("#allPayNos").is(":checked")){
+		$("[name='PAY_NOS']").attr("checked",true);
+	}else{
+		$("[name='PAY_NOS']").attr("checked",false);
+	}
+	
+}
